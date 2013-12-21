@@ -21,6 +21,9 @@
 		18CA9AD518643CBA0067967A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA9AB718643CBA0067967A /* UIKit.framework */; };
 		18CA9ADD18643CBA0067967A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18CA9ADB18643CBA0067967A /* InfoPlist.strings */; };
 		18CA9ADF18643CBA0067967A /* Framework_TableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA9ADE18643CBA0067967A /* Framework_TableTests.m */; };
+		18CA9AEA18643E6B0067967A /* MasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA9AE918643E6B0067967A /* MasterTableViewController.m */; };
+		18CA9AED18643FBA0067967A /* Section.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA9AEC18643FBA0067967A /* Section.m */; };
+		18CA9AF0186442140067967A /* Sections.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA9AEF186442140067967A /* Sections.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		18CA9ADA18643CBA0067967A /* Framework-TableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Framework-TableTests-Info.plist"; sourceTree = "<group>"; };
 		18CA9ADC18643CBA0067967A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		18CA9ADE18643CBA0067967A /* Framework_TableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Framework_TableTests.m; sourceTree = "<group>"; };
+		18CA9AE818643E6B0067967A /* MasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewController.h; sourceTree = "<group>"; };
+		18CA9AE918643E6B0067967A /* MasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewController.m; sourceTree = "<group>"; };
+		18CA9AEB18643FBA0067967A /* Section.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Section.h; sourceTree = "<group>"; };
+		18CA9AEC18643FBA0067967A /* Section.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Section.m; sourceTree = "<group>"; };
+		18CA9AEE186442140067967A /* Sections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sections.h; sourceTree = "<group>"; };
+		18CA9AEF186442140067967A /* Sections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sections.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +124,16 @@
 				18CA9AC218643CBA0067967A /* AppDelegate.h */,
 				18CA9AC318643CBA0067967A /* AppDelegate.m */,
 				18CA9AC518643CBA0067967A /* Main.storyboard */,
+				18CA9AE818643E6B0067967A /* MasterTableViewController.h */,
+				18CA9AE918643E6B0067967A /* MasterTableViewController.m */,
 				18CA9AC818643CBA0067967A /* ViewController.h */,
 				18CA9AC918643CBA0067967A /* ViewController.m */,
 				18CA9ACB18643CBA0067967A /* Images.xcassets */,
 				18CA9ABA18643CBA0067967A /* Supporting Files */,
+				18CA9AEB18643FBA0067967A /* Section.h */,
+				18CA9AEC18643FBA0067967A /* Section.m */,
+				18CA9AEE186442140067967A /* Sections.h */,
+				18CA9AEF186442140067967A /* Sections.m */,
 			);
 			path = "Framework-Table";
 			sourceTree = "<group>";
@@ -250,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CA9ACA18643CBA0067967A /* ViewController.m in Sources */,
+				18CA9AED18643FBA0067967A /* Section.m in Sources */,
+				18CA9AEA18643E6B0067967A /* MasterTableViewController.m in Sources */,
+				18CA9AF0186442140067967A /* Sections.m in Sources */,
 				18CA9AC418643CBA0067967A /* AppDelegate.m in Sources */,
 				18CA9AC018643CBA0067967A /* main.m in Sources */,
 			);
