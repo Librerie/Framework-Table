@@ -20,4 +20,5 @@
 - (int)countOfSections;
 - (NSString *)objectInSectionsAtIndex:(NSUInteger)index;
 - (NSString *)titleInSectionsAtIndex:(NSUInteger)index;
+
 @end

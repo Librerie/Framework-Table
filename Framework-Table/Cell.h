@@ -1,13 +1,13 @@
 //
-//  ViewController.h
+//  Cell.h
 //  Framework-Table
 //
-//  Created by Marco Velluto on 20/12/13.
+//  Created by Marco Velluto on 23/12/13.
 //  Copyright (c) 2013 Algos. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface Cell : UITableViewCell
 
 @end

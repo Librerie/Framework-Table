@@ -10,5 +10,5 @@
 
 @implementation Section
 
-
+@synthesize color, image, title;
 @end

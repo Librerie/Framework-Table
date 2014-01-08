@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		185885F11868900800BA04DF /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 185885F01868900800BA04DF /* Cell.m */; };
+		18620015187DE41C00BE6AB1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18620014187DE41C00BE6AB1 /* DetailViewController.m */; };
 		18CA9AB418643CBA0067967A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA9AB318643CBA0067967A /* Foundation.framework */; };
 		18CA9AB618643CBA0067967A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA9AB518643CBA0067967A /* CoreGraphics.framework */; };
 		18CA9AB818643CBA0067967A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA9AB718643CBA0067967A /* UIKit.framework */; };
@@ -14,7 +16,6 @@
 		18CA9AC018643CBA0067967A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA9ABF18643CBA0067967A /* main.m */; };
 		18CA9AC418643CBA0067967A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA9AC318643CBA0067967A /* AppDelegate.m */; };
 		18CA9AC718643CBA0067967A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CA9AC518643CBA0067967A /* Main.storyboard */; };
-		18CA9ACA18643CBA0067967A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CA9AC918643CBA0067967A /* ViewController.m */; };
 		18CA9ACC18643CBA0067967A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CA9ACB18643CBA0067967A /* Images.xcassets */; };
 		18CA9AD318643CBA0067967A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA9AD218643CBA0067967A /* XCTest.framework */; };
 		18CA9AD418643CBA0067967A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA9AB318643CBA0067967A /* Foundation.framework */; };
@@ -37,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		185885EF1868900800BA04DF /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		185885F01868900800BA04DF /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		18620013187DE41C00BE6AB1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		18620014187DE41C00BE6AB1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		18CA9AB018643CBA0067967A /* Framework-Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Framework-Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CA9AB318643CBA0067967A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18CA9AB518643CBA0067967A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,8 +53,6 @@
 		18CA9AC218643CBA0067967A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18CA9AC318643CBA0067967A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		18CA9AC618643CBA0067967A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		18CA9AC818643CBA0067967A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18CA9AC918643CBA0067967A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18CA9ACB18643CBA0067967A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18CA9AD118643CBA0067967A /* Framework-TableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Framework-TableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18CA9AD218643CBA0067967A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -88,6 +91,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18620016187DE42200BE6AB1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18CA9AE818643E6B0067967A /* MasterTableViewController.h */,
+				18CA9AE918643E6B0067967A /* MasterTableViewController.m */,
+				18620013187DE41C00BE6AB1 /* DetailViewController.h */,
+				18620014187DE41C00BE6AB1 /* DetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		18CA9AA718643CBA0067967A = {
 			isa = PBXGroup;
 			children = (
@@ -124,16 +138,15 @@
 				18CA9AC218643CBA0067967A /* AppDelegate.h */,
 				18CA9AC318643CBA0067967A /* AppDelegate.m */,
 				18CA9AC518643CBA0067967A /* Main.storyboard */,
-				18CA9AE818643E6B0067967A /* MasterTableViewController.h */,
-				18CA9AE918643E6B0067967A /* MasterTableViewController.m */,
-				18CA9AC818643CBA0067967A /* ViewController.h */,
-				18CA9AC918643CBA0067967A /* ViewController.m */,
+				18620016187DE42200BE6AB1 /* Controllers */,
 				18CA9ACB18643CBA0067967A /* Images.xcassets */,
 				18CA9ABA18643CBA0067967A /* Supporting Files */,
 				18CA9AEB18643FBA0067967A /* Section.h */,
 				18CA9AEC18643FBA0067967A /* Section.m */,
 				18CA9AEE186442140067967A /* Sections.h */,
 				18CA9AEF186442140067967A /* Sections.m */,
+				185885EF1868900800BA04DF /* Cell.h */,
+				185885F01868900800BA04DF /* Cell.m */,
 			);
 			path = "Framework-Table";
 			sourceTree = "<group>";
@@ -264,12 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18CA9ACA18643CBA0067967A /* ViewController.m in Sources */,
 				18CA9AED18643FBA0067967A /* Section.m in Sources */,
 				18CA9AEA18643E6B0067967A /* MasterTableViewController.m in Sources */,
 				18CA9AF0186442140067967A /* Sections.m in Sources */,
 				18CA9AC418643CBA0067967A /* AppDelegate.m in Sources */,
 				18CA9AC018643CBA0067967A /* main.m in Sources */,
+				185885F11868900800BA04DF /* Cell.m in Sources */,
+				18620015187DE41C00BE6AB1 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +492,7 @@
 				18CA9AE418643CBA0067967A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18CA9AE518643CBA0067967A /* Build configuration list for PBXNativeTarget "Framework-TableTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +501,7 @@
 				18CA9AE718643CBA0067967A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
